@@ -1,0 +1,39 @@
+.PopUpButton {
+  background: #fafdff;
+  height: 10vh;
+  width: 10vh;
+  position: fixed;
+  left: 3rem;
+  bottom: 3rem;
+  border: 4px solid #69baea;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 300ms;
+  z-index: 5;
+}
+
+.PopUpButton a {
+  text-decoration: none;
+}
+
+.PopUpButton:hover {
+  background-color: #f9fdff;
+  border-color: #66aae8;
+}
+
+@media (max-width: 400px) {
+  .PopUpButton {
+    left: 2rem;
+    bottom: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .PopUpButton {
+
+  }
+}

@@ -1,0 +1,68 @@
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  animation-duration: 500ms;
+}
+
+.NavigationItem a {
+  color: #578ddd;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+
+@media (max-width: 499px) {
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    color: #578ddd;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 500px) {
+  .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .NavigationItem a {
+    color: rgb(214, 214, 214);
+    height: 100%;
+    padding: 16px 20px;
+    border-top: 4px solid transparent;
+    transition: 500ms ease;
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    border-top: 4px solid #fff;
+    color: white;
+  }
+
+  .NavigationItem a:hover {
+    background-color: rgba(255, 255, 255, 0.137);
+  }
+
+  html:not([data-scroll="0"]) .NavigationItem a {
+    color: #6cbfeb;
+  }
+
+  html:not([data-scroll="0"]) .NavigationItem a:hover {
+    border-top: 4px solid #6cbfeb;
+  }
+
+  html:not([data-scroll="0"]) .NavigationItem a.active {
+    border-top: 4px solid #6cbfeb;
+  }
+}

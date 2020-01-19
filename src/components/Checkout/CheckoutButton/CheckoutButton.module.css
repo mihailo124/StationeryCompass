@@ -1,0 +1,19 @@
+.Button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #6dc6ec , #6cc0eb);
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    border: 3px solid #6cc3eb;
+    border-radius: 7px;
+    transition: 500ms;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+.Button:hover {
+    background: #fff;
+    color: #6cc3eb;
+}

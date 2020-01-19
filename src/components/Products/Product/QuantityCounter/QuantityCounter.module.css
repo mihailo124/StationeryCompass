@@ -1,0 +1,31 @@
+.Quantity input {
+  padding: 0;
+  box-sizing: border-box;
+  height: 25px;
+  outline: none;
+  text-align: center;
+  width: 30px;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid rgb(172, 172, 172);
+  border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.Quantity input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Quantity button {
+  appearance: none;
+  height: 25px;
+  padding: 0 7px;
+  box-sizing: border-box;
+  border: 1px solid rgb(172, 172, 172);
+  outline: none;
+}
+
+.Quantity button:active {
+  border-color: #66aae7;
+}

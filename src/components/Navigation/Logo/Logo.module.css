@@ -1,0 +1,37 @@
+.Logo {
+  padding: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+
+.Logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+html:not([data-scroll="0"]) .Logo a {
+  color: #6cbfeb;
+}
+
+@media (min-width: 900px) {
+  .Logo a {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Logo a {
+    font-size: 100px;
+  }
+}
+
+.Click {
+  transform: scale(1.1);
+}

@@ -1,0 +1,38 @@
+.Checkout {
+    background-color: #fff;
+    height: 100%;
+    padding: 10px 10%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .Checkout {
+    margin-top: 90px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Checkout {
+    padding: 10px 15%;
+    margin-top: 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .Checkout {
+        padding: 10px 20%;
+    }
+}
+
+.TotalPrice {
+  background: linear-gradient(135deg, #71d1ee 0%, #6388e1 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: large;
+}

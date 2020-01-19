@@ -1,0 +1,27 @@
+.Products, .ProductsA {
+  background-color: #fff;
+  height: 100%;
+  padding: 0 10%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  /* margin: 0 auto; */
+}
+
+@media (min-width: 900px) {
+  .Products, .ProductsA {
+    padding: 0 15%;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Products, .ProductsA {
+    padding: 0 25%;
+    padding-bottom: 10px;
+  }
+}
+
+.ProductsA div {
+  animation: none;
+}

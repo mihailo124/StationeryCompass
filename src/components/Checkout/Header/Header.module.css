@@ -1,0 +1,5 @@
+.Header {
+  background: linear-gradient(135deg, #71d1ee 0%, #6388e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
