@@ -19,5 +19,6 @@ The project is responsive and runs well on screens dowt to Iphone 5 size. Inter-
 To run the project download it on your device and run "npm install" in project's directory and you're good to go (by running "npm start"). Though, it's up on heroku: http://stationerycompass.herokuapp.com
 
 TODOS:
+- Fix blinking items on adding/changing
 - Add Redux
 - Add tests
