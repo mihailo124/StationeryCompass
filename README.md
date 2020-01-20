@@ -14,7 +14,7 @@ When you've added something to your cart all of it appears in here. In case if y
 
 
 #### General overview:
-The project is responsive and runs well on screens dowt to Iphone 5 size. Inter-component communication was provided by "window.sessionStorage", which isn't the best solution in real life but as for such a project worked well. Data persists as long as page isn't closed or reloaded. I was intending to add tests, but I'd like it to be meaningful, but the components I wanted to tests were depended on previously mentioned "window.sessionStorage" which is browser API part and cannot be set by tests, this one the reasons why Redux would do better for architechture of the project.
+The project is responsive and runs well on screens dowt to Iphone 5 size. Inter-component communication was provided by "window.sessionStorage", which isn't the best solution in real life but as for such a project worked well. Data persists as long as page isn't closed or reloaded. I was intending to add tests, but I'd like it to be meaningful, but the components I wanted to tests were depended on previously mentioned "window.sessionStorage" which is browser API part and cannot be set by tests, this one the reasons why Redux would do better for architechture of the project. I wanted to keep it reusable so if you want to add a product all you need to do is add it in appropriate format to initial state in Products container component. If needed you can add picture, but it isn't necessary because it'll be swapped with default one.
 
 To run the project download it on your device and run "npm install" in project's directory and you're good to go (by running "npm start"). Though, it's up on heroku: http://stationerycompass.herokuapp.com
 
